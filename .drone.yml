@@ -1,0 +1,10 @@
+image: go:1.3
+git:
+  path: github.com/garyburd/redigo
+script:
+  - cd redis
+  - go build
+  - go test -v
+
+services
+  - library/redis:2.8
