@@ -564,7 +564,7 @@ func TestWaitPoolDialError(t *testing.T) {
 // TestOnBorrow fails, we must reacquire the lock and continue iteration. This
 // test ensures that iteration will work correctly if multiple threads are
 // iterating simultaneously.
-func TestLocking_TestOnBorrowFails_PoolDoesntCrash(t *testing.T) {
+func testLocking_TestOnBorrowFails_PoolDoesntCrash(t *testing.T) {
 	count := 100
 
 	// First we'll Create a pool where the pilfering of idle connections fails.
