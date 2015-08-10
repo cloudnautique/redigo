@@ -7,4 +7,4 @@ script:
   - go test -v
 
 services
-  - library/redis:2.8
+  - redis:2.8
