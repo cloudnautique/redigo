@@ -498,7 +498,7 @@ func TestExecError(t *testing.T) {
 		t.Fatalf("Values(v) returned error %v", err)
 	}
 
-	if len(vs) != 3 {
+	if len(vs) != 2 {
 		t.Fatalf("len(vs) == %d, want 2", len(vs))
 	}
 
