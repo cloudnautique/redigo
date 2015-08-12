@@ -5,6 +5,7 @@ script:
   - cd redis
   - go build
   - go test -v
+  - sleep 60
 
 services:
   - library/redis:2.8.20
