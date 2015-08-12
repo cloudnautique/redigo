@@ -31,7 +31,7 @@ The Go distribution is Redigo's only dependency.
 Contributing
 ------------
 
-Contributions are welcome! 
+Contributions are welcome. 
 
 Before writing code, send mail to gary@beagledreams.com to discuss what you
 plan to do. This gives me a chance to validate the design, avoid duplication of
